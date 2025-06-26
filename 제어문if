@@ -1,0 +1,5 @@
+sel=input('점심먹어?[y/n] ')
+if sel=='y':
+    print('점심먹으러 가~')
+    print('가자')
+print('자~ 점심시간이 끝났다')
