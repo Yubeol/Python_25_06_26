@@ -28,4 +28,4 @@ else:
     grade='F'
 
 outstring='출석 {:2d}, 중간고사 {:2d}, 기말고사 {:2d}, 과제 {:2d}\n합계 {:3d} 등급{:^5s}'
-print(outstring.format(att, mid, fin, ass, grade))
+print(outstring.format(att, mid, fin, ass,total, grade))
