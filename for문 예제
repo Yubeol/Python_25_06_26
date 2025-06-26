@@ -1,0 +1,88 @@
+#입출력 확인 문제
+#예제 1: 정수 하나 입력받기
+# a=(int(input('정수를 입력: ')))
+# print('입력한정수:',a)
+
+#예제2: 실수 하나 입력받기
+# a=(float(input('실수를 입력: ')))
+# print('입력한실수:',a)
+
+# 예제3: 문자 하나 입력받기
+# ch=input('문자를 입력: ')[0]
+# print('입력한문자:',ch)
+
+#예제4: 문자열 입력받기
+# s=input('문자열을 입력: ')
+# print('입력한 문자열: ',s)
+
+#예제5: 두 정수 입력받기(공백구분)
+# num1, num2=input('정수 두개 입력: ').split()
+# num1=int(num1)
+# num2=int(num2)
+# print('num1:',num1,'num2:',num2)
+
+#예제6: 두 실수 입력받기(공백구분)
+# num1, num2=input('실수 두개 입력: ').split()
+# num1=float(num1)
+# num2=float(num2)
+# print('num1:',num1,'num2:',num2)
+
+#예제7: 세 글자의 문자열 각각 문자로 출력
+# s=input('세글자의 문자열을 입력: ')
+# print('첫번째 글자:',s[0])
+# print('두번째 글자:',s[1])
+# print('세번째 글자:',s[2])
+
+#예제8: 문자열 길이 출력하기
+# s=input('문자열을 입력:')
+# print('입력한 문자열의 길이:',len(s))
+
+#예제9: 두 정수 더해서 출력하기
+# num1=int(input('첫번째 정수를 입력: '))
+# num2=int(input('두번째 정수를 입력: '))
+# print(f"{num1}+{num2}={num1+num2}")
+
+#예제10: 문자열을 숫자로 바꿔 계산
+# num_str=input('숫자를 문자열로 입력: ')
+# num=int(num_str)
+# print('입력된 숫자에 3을 더한 값=',num+3)
+
+#예제12: 공백으로 구분된 세 실수 입력받기
+# num1,num2,num3=input('세 실수룰 공백으로 입력: ').split()
+# num1=float(num1)
+# num2=float(num2)
+# num3=float(num3)
+# print(f"num1+num2+num3 = {num1+num2+num3}")
+
+#예제13: 공백으로 구분된 두 문자열 입력받기
+# str1,str2=input('두 문자열을 공백으로 입력: ').split()
+# str1=str(str1)
+# str2=str(str2)
+# print(str1,str2)
+
+#예제14: 시간과 분 입력받아 시:분 형식 출력
+# hour,minute=input('현제 시간을 입력(예:00:00): ').split(':')
+# hour=int(hour)
+# minute=int(minute)
+# print(f'현제 시간은 {hour}시{minute}분입니다.')
+
+#예제15: “Hello”와 “Python”을 입력받아 아래와 같이 출력되도록 print() 문을 작성하세요. HelloPython
+# s1=input('"Hello"울 입력: ')
+# s2=input('"Python"울 입력: ')
+# s1=str(s1)
+# s2=str(s2)
+# print(f'{s1}{s2}')
+
+#예제16: 두 개의 숫자를 입력받아 다음 결과가 출려되도록 print()문을 작성 하세요. Sum = 30
+# num1, num2=input('두 개의 정수 입력 예)10+10: ').split('+')
+# num1=int(num1)
+# num2=int(num2)
+# sum=num1+num2
+# print('Sum =', sum)
+
+#예제17: "Python", "3", "11"을 조합하고 중간에 공백이 있도록 다음과 같은 결과가 출력되도록 print() 문을 작성하세요.  Python 3.11
+# s1,s2,s3=input('Python, 3, 11을 입력: ').strip().split(' ')
+# print(f'{s1} {s2}.{s3}')
+
+#예제18: A = 10, B = 5로 변수 지정하고 입력을 받아 다음 결과가 출력되도록 print() 문울 작성하세요.   A(10)와 B(5)의 합은 15입니다.
+a,b=int(input('A와 B의 값을 입력 예) '))
