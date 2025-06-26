@@ -1,0 +1,10 @@
+name = "Alice"
+age = 30
+print("{}은 {}살입니다.".format(name, age))
+print("{0}은 {1}살입니다.".format(name, age))
+outString="{1}은 {0}살입니다."
+print(outString.format(name, age))
+print("{1}은 {0}살입니다.".format(name, age))
+print(f"{name}은 {age}살입니다.")
+print("{0}는 {1}살입니다.".format("영희", 12))# 위치인자
+print("{name}는 {age}살입니다.".format(name="철수", age=13))#키워드인자
