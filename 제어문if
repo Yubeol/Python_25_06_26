@@ -1,5 +1,8 @@
-sel=input('점심먹어?[y/n] ')
-if sel=='y':
+# 점심 먹을 의향과 돈의 유무를 확인해서 참과 거짓을 구분
+lunchSel=input('점심먹을래?[y/n] ')
+money=input('돈있어?[y/n] ')
+if lunchSel=='y' and money=='y':
     print('점심먹으러 가~')
     print('가자')
-print('자~ 점심시간이 끝났다')
+else:
+    print('자~ 점심시간이 끝났다')
