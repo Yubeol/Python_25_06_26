@@ -1,0 +1,4 @@
+text='python'
+print('왼쪽정렬:[{0:<10}]'.format(text, '^^'))
+print('오른쪽정렬:[{:>10}]'.format(text))
+print('가운데정렬:[{:^10}]'.format(text))
