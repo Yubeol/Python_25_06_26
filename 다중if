@@ -1,0 +1,31 @@
+#성적을 입력받아 등급 출력, 출력점수, 중간고사, 기말고사, 과제를 입력받아서 등급출력
+
+att, mid, fin, ass=input('출석[20], 중간[30], 기말[40], 과제[10]점수입력\n[예시:10,10,10,10]=>').strip().split(',')
+
+att=int(att)
+mid=int(mid)
+fin=int(fin)
+ass=int(ass)
+total=att+mid+fin+ass
+
+if total>=95:
+    grade='A+'
+elif total>=90:
+    grade='A'
+elif total>=85:
+    grade='B+'
+elif total>=80:
+    grade='B'
+elif total>=75:
+    grade='C+'
+elif total>=70:
+    grade='C'
+elif total>=65:
+    grade='D+'
+elif total>=60:
+    grade='D'
+else:
+    grade='F'
+
+outstring='출석 {:2d}, 중간고사 {:2d}, 기말고사 {:2d}, 과제 {:2d}\n합계 {:3d} 등급{:^5s}'
+print(outstring.format(att, mid, fin, ass, grade))
