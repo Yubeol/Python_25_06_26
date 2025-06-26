@@ -1,7 +1,7 @@
 # 점심 먹을 의향과 돈의 유무를 확인해서 참과 거짓을 구분
-lunchSel=input('점심먹을래?[y/n] ')
-money=input('돈있어?[y/n] ')
-if lunchSel=='y' and money=='y':
+lunchSel=input('점심먹을래?[y/n] ') #lunchSel 점심먹을지 유무 선택값 저장 변수
+money=input('돈있어?[y/n] ') #money돈의 유무 값을 저장하는 변수
+if lunchSel=='y' and money=='y': #조건
     print('점심먹으러 가~')
     print('가자')
 else:
